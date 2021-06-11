@@ -18,14 +18,37 @@ namespace com.edgewords.Amtrustcourse.Base_Classes
         [SetUp]
         public void SetUp()
         {
+
+            string browser = Environment.GetEnvironmentVariable("browser", EnvironmentVariableTarget.Process);
+
+
+            switch (browser)
+            {
+                case "chrome":
+                    driver = new ChromeDriver();
+                    break;
+                case "firefox":
+                    FirefoxDriverService service = FirefoxDriverService.CreateDefaultService();
+                    service.Host = "::1";
+                    driver = new FirefoxDriver(service);
+                    break;
+                default: 
+                    driver = new ChromeDriver();
+                    break;
+
+            }
+            
+            
+            
+            
             //var options = new ChromeOptions();
             //options.AddArgument("start-maximized");
 
 
             //driver = new ChromeDriver(options); //Opens chrome
-            FirefoxDriverService service = FirefoxDriverService.CreateDefaultService();
-            service.Host = "::1";
-            driver = new FirefoxDriver(service);
+            //FirefoxDriverService service = FirefoxDriverService.CreateDefaultService();
+            //service.Host = "::1";
+            //driver = new FirefoxDriver(service);
 
             //driver = new FirefoxDriver();
 
