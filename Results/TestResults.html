@@ -1,0 +1,273 @@
+﻿<html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <body>
+    <h1>Test run details</h1>
+    <div class="summary">
+      <div class="block"><span>Total tests</span><div class="total-tests">3</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">1</span><br><span>Failed  : </span><span class="failedTests">2</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">33 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">1m 16s</div><br></div><br></div>
+    <h2>Failed Results</h2>
+    <div class="list-row" onclick="ToggleClass('365549732-failedResult')">C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\bin\Debug\netcoreapp3.1\com.edgewords.Amtrustcourse.dll</div>
+    <div class="inner-row" Id="365549732-failedResult" style="display:block;">
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> selIDEDemo("edgewords","edgewords123")</span><div class="duration"><span>24s 739ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : Unable to locate element: #name</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.WaitForElement(IWebDriver driver, By locator, Int32 seconds) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(String username, String password) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Test_Cases\SelIDEDemoTest.cs:line 92
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.&lt;&gt;c__DisplayClass0_0.&lt;WaitForElement&gt;b__0(IWebDriver driver) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> selIDEDemo("stevepowell123","password123")</span><div class="duration"><span>24s 927ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : Unable to locate element: #name</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.WaitForElement(IWebDriver driver, By locator, Int32 seconds) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(String username, String password) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Test_Cases\SelIDEDemoTest.cs:line 92
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.&lt;&gt;c__DisplayClass0_0.&lt;WaitForElement&gt;b__0(IWebDriver driver) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre></span><br></div>
+      </div>
+    </div>
+    <h2>All Results</h2>
+    <div class="list-row" onclick="ToggleClass('365549732')">C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\bin\Debug\netcoreapp3.1\com.edgewords.Amtrustcourse.dll</div>
+    <div class="inner-row" Id="365549732" style="display:none;">
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> selIDEDemo("edgewords","edgewords123")</span><div class="duration"><span>24s 739ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : Unable to locate element: #name</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.WaitForElement(IWebDriver driver, By locator, Int32 seconds) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(String username, String password) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Test_Cases\SelIDEDemoTest.cs:line 92
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.&lt;&gt;c__DisplayClass0_0.&lt;WaitForElement&gt;b__0(IWebDriver driver) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> selIDEDemo("stevepowell123","password123")</span><div class="duration"><span>24s 927ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : Unable to locate element: #name</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.WaitForElement(IWebDriver driver, By locator, Int32 seconds) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(String username, String password) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Test_Cases\SelIDEDemoTest.cs:line 92
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.&lt;&gt;c__DisplayClass0_0.&lt;WaitForElement&gt;b__0(IWebDriver driver) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> storesync</span><div class="duration"><span>22s 681ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+    </div>
+    <div>
+      <h2>Informational messages</h2><span>NUnit Adapter 3.17.0.0: Test execution started</span><br><span>Running all tests in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\bin\Debug\netcoreapp3.1\com.edgewords.Amtrustcourse.dll</span><br><span>   NUnit3TestExecutor discovered 7 of 7 NUnit test cases</span><br><span>The parameter value was: POWELL
+The envvar was: "HelloWorld"
+</span><br><span>The parameter value was: POWELL
+The envvar was: "HelloWorld"
+</span><br><span>Skip to navigation
+Skip to content
+Edgewords Shop
+e-commerce demo site for Training
+Search for:
+Search
+Home
+Shop
+Cart
+Checkout
+My account
+Blog
+£0.00 0 items
+Welcome
+Welcome to Edgewords e-commerce demo
+Please note that no real products can be purchased on this site!
+Shop by Category
+Accessories (4)
+Hoodies (4)
+Tshirts (4)
+New In
+Vneck Tshirt
+£18.00
+Add to cart
+Tshirt
+£18.00
+Add to cart
+Polo
+£20.00
+Add to cart
+Long Sleeve Tee
+£25.00
+Add to cart
+We Recommend
+Hoodie
+SALE!
+£45.00 £42.00
+Add to cart
+Hoodie with Zipper
+£45.00
+Add to cart
+Hoodie with Pocket
+SALE!
+£45.00 £35.00
+Add to cart
+Sunglasses
+£90.00
+Add to cart
+Fan Favorites
+Beanie
+SALE!
+£20.00 £18.00
+Add to cart
+Belt
+SALE!
+£65.00 £55.00
+Add to cart
+Cap
+SALE!
+£18.00 £16.00
+Add to cart
+Sunglasses
+£90.00
+Add to cart
+On Sale
+Hoodie
+SALE!
+£45.00 £42.00
+Add to cart
+Hoodie with Pocket
+SALE!
+£45.00 £35.00
+Add to cart
+Cap
+SALE!
+£18.00 £16.00
+Add to cart
+Belt
+SALE!
+£65.00 £55.00
+Add to cart
+Best Sellers
+Vneck Tshirt
+£18.00
+Add to cart
+Cap
+SALE!
+£18.00 £16.00
+Add to cart
+Tshirt
+£18.00
+Add to cart
+Belt
+SALE!
+£65.00 £55.00
+Add to cart
+© Edgewords Shop 2021
+Built with Storefront &amp; WooCommerce.
+searchpos : 934
+</span><br><span>NUnit Adapter 3.17.0.0: Test execution complete</span><br></div>
+  </body><script language="javascript">
+        function ToggleClass(id) {
+        var elem = document.getElementById(id);
+        if (elem.style.display == "none") {
+        elem.style.display = "block";
+        }
+        else {
+        elem.style.display = "none";
+        }
+        }
+      </script><style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style>
+</html>

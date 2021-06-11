@@ -1,0 +1,178 @@
+<test-run id="2" duration="72.348289" testcasecount="3" total="3" passed="1" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2021-06-10T 11:43:01Z" end-time="2021-06-10T 11:44:17Z">
+  <test-suite type="Assembly" name="com.edgewords.Amtrustcourse.dll" fullname="C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\bin\Debug\netcoreapp3.1\com.edgewords.Amtrustcourse.dll" total="3" passed="1" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2021-06-10T 11:43:05Z" end-time="2021-06-10T 11:44:17Z" duration="72.348289">
+    <test-suite type="TestSuite" name="com" fullname="com" total="3" passed="1" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2021-06-10T 11:43:05Z" end-time="2021-06-10T 11:44:17Z" duration="72.348289">
+      <test-suite type="TestSuite" name="edgewords" fullname="com.edgewords" total="3" passed="1" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2021-06-10T 11:43:05Z" end-time="2021-06-10T 11:44:17Z" duration="72.348289">
+        <test-suite type="TestSuite" name="Amtrustcourse" fullname="com.edgewords.Amtrustcourse" total="3" passed="1" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2021-06-10T 11:43:05Z" end-time="2021-06-10T 11:44:17Z" duration="72.348289">
+          <test-suite type="TestSuite" name="Test_Cases" fullname="com.edgewords.Amtrustcourse.Test_Cases" total="3" passed="1" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2021-06-10T 11:43:05Z" end-time="2021-06-10T 11:44:17Z" duration="72.348289">
+            <test-suite type="TestFixture" name="SelIDEDemoTest" fullname="com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2021-06-10T 11:43:05Z" end-time="2021-06-10T 11:43:54Z" duration="49.667073">
+              <test-case name="selIDEDemo(&quot;edgewords&quot;,&quot;edgewords123&quot;)" fullname="com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(&quot;edgewords&quot;,&quot;edgewords123&quot;)" methodname="selIDEDemo(&quot;edgewords&quot;,&quot;edgewords123&quot;)" classname="SelIDEDemoTest" result="Failed" start-time="2021-06-10T 11:43:05Z" end-time="2021-06-10T 11:43:29Z" duration="24.739726" asserts="0">
+                <properties>
+                  <property name="Category" value="Web" />
+                </properties>
+                <output><![CDATA[The parameter value was: POWELL
+The envvar was: "HelloWorld"
+
+]]></output>
+                <failure>
+                  <message>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : Unable to locate element: #name</message>
+                  <stack-trace>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.WaitForElement(IWebDriver driver, By locator, Int32 seconds) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(String username, String password) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Test_Cases\SelIDEDemoTest.cs:line 92
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.&lt;&gt;c__DisplayClass0_0.&lt;WaitForElement&gt;b__0(IWebDriver driver) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="selIDEDemo(&quot;stevepowell123&quot;,&quot;password123&quot;)" fullname="com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(&quot;stevepowell123&quot;,&quot;password123&quot;)" methodname="selIDEDemo(&quot;stevepowell123&quot;,&quot;password123&quot;)" classname="SelIDEDemoTest" result="Failed" start-time="2021-06-10T 11:43:29Z" end-time="2021-06-10T 11:43:54Z" duration="24.927347" asserts="0">
+                <properties>
+                  <property name="Category" value="Web" />
+                </properties>
+                <output><![CDATA[The parameter value was: POWELL
+The envvar was: "HelloWorld"
+
+]]></output>
+                <failure>
+                  <message>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : Unable to locate element: #name</message>
+                  <stack-trace>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.WaitForElement(IWebDriver driver, By locator, Int32 seconds) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at com.edgewords.Amtrustcourse.Test_Cases.SelIDEDemoTest.selIDEDemo(String username, String password) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Test_Cases\SelIDEDemoTest.cs:line 92
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at com.edgewords.Amtrustcourse.Helpers.Helper_Library.&lt;&gt;c__DisplayClass0_0.&lt;WaitForElement&gt;b__0(IWebDriver driver) in C:\Users\edgewords\source\repos\com.edgewords.Amtrustcourse\Helpers\Helper_Library.cs:line 17
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" name="StoresyncTest" fullname="com.edgewords.Amtrustcourse.Test_Cases.StoresyncTest" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-06-10T 11:43:54Z" end-time="2021-06-10T 11:44:17Z" duration="22.681216">
+              <test-case name="storesync" fullname="com.edgewords.Amtrustcourse.Test_Cases.StoresyncTest.storesync" methodname="storesync" classname="StoresyncTest" result="Passed" start-time="2021-06-10T 11:43:54Z" end-time="2021-06-10T 11:44:17Z" duration="22.681216" asserts="0">
+                <properties>
+                  <property name="Category" value="Web" />
+                  <property name="Category" value="Blah" />
+                </properties>
+                <output><![CDATA[Skip to navigation
+Skip to content
+Edgewords Shop
+e-commerce demo site for Training
+Search for:
+Search
+Home
+Shop
+Cart
+Checkout
+My account
+Blog
+£0.00 0 items
+Welcome
+Welcome to Edgewords e-commerce demo
+Please note that no real products can be purchased on this site!
+Shop by Category
+Accessories (4)
+Hoodies (4)
+Tshirts (4)
+New In
+Vneck Tshirt
+£18.00
+Add to cart
+Tshirt
+£18.00
+Add to cart
+Polo
+£20.00
+Add to cart
+Long Sleeve Tee
+£25.00
+Add to cart
+We Recommend
+Hoodie
+SALE!
+£45.00 £42.00
+Add to cart
+Hoodie with Zipper
+£45.00
+Add to cart
+Hoodie with Pocket
+SALE!
+£45.00 £35.00
+Add to cart
+Sunglasses
+£90.00
+Add to cart
+Fan Favorites
+Beanie
+SALE!
+£20.00 £18.00
+Add to cart
+Belt
+SALE!
+£65.00 £55.00
+Add to cart
+Cap
+SALE!
+£18.00 £16.00
+Add to cart
+Sunglasses
+£90.00
+Add to cart
+On Sale
+Hoodie
+SALE!
+£45.00 £42.00
+Add to cart
+Hoodie with Pocket
+SALE!
+£45.00 £35.00
+Add to cart
+Cap
+SALE!
+£18.00 £16.00
+Add to cart
+Belt
+SALE!
+£65.00 £55.00
+Add to cart
+Best Sellers
+Vneck Tshirt
+£18.00
+Add to cart
+Cap
+SALE!
+£18.00 £16.00
+Add to cart
+Tshirt
+£18.00
+Add to cart
+Belt
+SALE!
+£65.00 £55.00
+Add to cart
+© Edgewords Shop 2021
+Built with Storefront & WooCommerce.
+searchpos : 934
+
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
