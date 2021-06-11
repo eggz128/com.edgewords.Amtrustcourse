@@ -18,7 +18,7 @@ namespace com.edgewords.Amtrustcourse.Base_Classes
         [SetUp]
         public void SetUp()
         {
-
+            //Check env in ci
             string browser = Environment.GetEnvironmentVariable("browser", EnvironmentVariableTarget.Process);
 
 
